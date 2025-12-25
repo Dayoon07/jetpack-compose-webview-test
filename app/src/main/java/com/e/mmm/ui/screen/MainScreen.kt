@@ -17,6 +17,6 @@ fun MainScreen() {
     }
 
     Scaffold {
-        ShortformWebView(url = url)
+        WebViewScreen(url = url)
     }
 }

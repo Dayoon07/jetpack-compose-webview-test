@@ -60,4 +60,9 @@ dependencies {
 
     // https://mvnrepository.com/artifact/androidx.compose.ui/ui-viewbinding
     runtimeOnly("androidx.compose.ui:ui-viewbinding:1.6.8")
+
+    // 권한 처리
+    implementation("com.google.accompanist:accompanist-permissions:0.32.0")
+    // 기타 필요한 의존성
+    implementation("androidx.activity:activity-compose:1.8.2")
 }
